@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8.842" height="11.368" viewBox="0 0 8.842 11.368">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4a4a;
+      }
+    </style>
+  </defs>
+  <g id="Group_213" data-name="Group 213" transform="translate(4482.895 -2483.632)">
+    <path id="ic_delete_24px" class="cls-1" d="M5.632,13.105a1.267,1.267,0,0,0,1.263,1.263h5.053a1.267,1.267,0,0,0,1.263-1.263V5.526H5.632Zm8.211-9.474H11.632L11,3H7.842l-.632.632H5V4.895h8.842Z" transform="translate(-4487.895 2480.632)"/>
+  </g>
+</svg>

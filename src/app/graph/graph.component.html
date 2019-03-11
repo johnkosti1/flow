@@ -1,0 +1,19 @@
+<div class="zoom-in" style="z-index: 100;">
+  <a href="#" (click)="zoomIn()">+</a>
+  <a href="#" (click)="zoomOut()">-</a>
+</div>
+<div class="execute-save" style="z-index: 100;">
+  <button class="bg-blue">Execute</button>
+  <button class="bg-green">Save</button>
+</div>
+
+<div style="height: 100%; width: 100%; overflow: auto;" droppable (onDrop)="onItemDrop($event)">
+    <ng2-cytoscape
+      [nodes]="nodes"
+      [edges]="edges"
+      [layout]="layout"
+      [zoom]="zoom"
+      (select)="nodeChange($event)"
+      [startLine]="sourceId"
+    ></ng2-cytoscape>
+</div>

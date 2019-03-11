@@ -1,0 +1,98 @@
+<!-- Left Sidebar -->
+<div class="fixed-sidebar">
+  <div class="fixed-sidebar-left sidebar--small" id="sidebar-left-sm"> <a href="" class="logo">
+    <div class="img-wrap">
+      <h2 class="logo-text">LOGO</h2>
+    </div>
+  </a>
+    <div class="left-sidebar">
+      <ul class="sidebar-menu">
+        <li class="inactive btn-lg-sidebar"> <a href="#">
+          <p class="icons-side"><img src="/assets/images/Group -1.svg" alt="icon" class="active-img"><img src="/assets/images/Group 95.svg" alt="icon" class="inactive-img" style="display:none;"></p>
+          <span>Create Test</span> </a> </li>
+        <li class="active btn-lg-sidebar"> <a href="#">
+          <p class="icons-side"><img src="/assets/images/Group 95.svg" alt="icon" class="inactive-img"><img src="/assets/images/Group 96.svg" class="active-img">
+          </p>
+          <span>View Test</span> </a> </li>
+        <li class="inactive btn-lg-sidebar"> <a href="#">
+          <p class="icons-side"><img src="/assets/images/Group 203.svg" class="inactive-img"><img src="/assets/images/Group 96.svg" class="active-img"></p>
+          <span>View Executions</span> </a> </li>
+      </ul>
+      <!--  /. sidebar-menu -->
+
+    </div>
+  </div>
+  <!-- /. sidebar--small -->
+
+  <div class="fixed-sidebar-left sidebar--large" id="sidebar-left-lg">
+  	<span class="left-icon-toggle btn-lg-sidebar">
+		<a href="#"><img src="/assets/images/right-arrow.svg"></a>
+	</span>
+    <div class="left-sidebar mCustomScrollbar">
+      <button class="upload-file" data-toggle="modal" data-target="#myModal">Upload File</button>
+      <!-- Modal -->
+
+      <div class="sidebar-menuTabs">
+        <div class="with-nav-tabs tabsMenu-panel">
+          <div class="tabs-heading">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab1" data-toggle="tab">Components</a></li>
+              <li><a href="#tab2" data-toggle="tab">Flows</a></li>
+            </ul>
+          </div>
+          <!-- /.panel-heading -->
+          <div class="tabs-body">
+            <div class="tab-content">
+              <div class="tab-pane fade in active" id="tab1">
+                <div class="tabs-contInr">
+                  <ul class="product-catalog">
+                    <ng-container *ngFor="let item of items">
+                      <li draggable [dragData]="item"> <a ><span class="img-box-pro"><img [src]="item.image" alt="" /></span><span>{{item.text}}</span> </a> </li>
+                    </ng-container>
+                  </ul>
+                  <!-- ./ product-catalog -->
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab2">
+                <div class="tabs-contInr">
+
+                  <div class="test-flows">
+                    <h4>Test 01 <span><img src="/assets/images/delete-red.svg"></span></h4>
+                    <p><span class="last-upd">Last edited : 09-11-2019</span> <span class="created-upd">Created : 09-11-2019</span></p>
+                  </div>
+                  <div class="test-flows">
+                    <h4>Test 01 <span><img src="/assets/images/delete-red.svg"></span></h4>
+                    <p><span class="last-upd">Last edited : 09-11-2019</span> <span class="created-upd">Created : 09-11-2019</span></p>
+                  </div>
+                  <div class="test-flows">
+                    <h4>Test 01 <span><img src="/assets/images/delete-red.svg"></span></h4>
+                    <p><span class="last-upd">Last edited : 09-11-2019</span> <span class="created-upd">Created : 09-11-2019</span></p>
+                  </div>
+                  <div class="test-flows">
+                    <h4>Test 01 <span><img src="/assets/images/delete-red.svg"></span></h4>
+                    <p><span class="last-upd">Last edited : 09-11-2019</span> <span class="created-upd">Created : 09-11-2019</span></p>
+                  </div>
+                  <div class="test-flows">
+                    <h4>Test 01 <span><img src="/assets/images/delete-red.svg"></span></h4>
+                    <p><span class="last-upd">Last edited : 09-11-2019</span> <span class="created-upd">Created : 09-11-2019</span></p>
+                  </div>
+                  <div class="test-flows">
+                    <h4>Test 01 <span><img src="/assets/images/delete-red.svg"></span></h4>
+                    <p><span class="last-upd">Last edited : 09-11-2019</span> <span class="created-upd">Created : 09-11-2019</span></p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.panel-body  -->
+        </div>
+      </div>
+      <!-- /. sidebar-menuTabs -->
+    </div>
+    <div class="ver-1">Ver. 1.0 </div>
+  </div>
+  <!-- /. sidebar--large -->
+
+</div>
+<!--<div class="sidebar-overlay"></div>-->
